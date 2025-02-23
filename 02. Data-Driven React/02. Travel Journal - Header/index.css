@@ -1,0 +1,70 @@
+.travel-journal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Optional: add spacing between the cards */
+  }
+  
+  .travel-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .travel-card__image {
+    flex: 1;
+    max-width: 40%; /* Limit the image size, you can adjust */
+  }
+  
+  .travel-card__img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .travel-card__content {
+    flex: 2;
+    padding-left: 20px; /* Adds space between image and text */
+  }
+  
+  .travel-card__title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .travel-card__location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .travel-card__map-icon {
+    color: #d90746;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  .travel-card__country {
+    font-size: 1.2em;
+    color: #555;
+    margin-right: 10px; /* Space between country and link */
+  }
+  
+  .travel-card__link {
+    color: #0077cc;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .travel-card__dates {
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .travel-card__text {
+    font-size: 1em;
+    color: #333;
+  }
+  
